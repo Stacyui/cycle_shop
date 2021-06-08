@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bike Maintenance</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <!-- Start of header -->
+  <header>
+    <a href="index.html">
+      <img src="images/cycle_logo1.png" alt="A logo of the shop">
+    </a>
+    <nav>
+      <div class="manu-us">
+        <a href="about_us.html">About Us</a>
+      </div>
+      <div class="menu-rental">
+        <a href="bike_rentals.html">Bike Rentals</a>
+      </div>
+      <div class="menu-contact">
+        <a href="contact_us.html">Contact Us</a>
+      </div>
+      <div class="menu-language">
+        <aside data-wg-notranslate class="country-selector weglot-dropdown weglot-default weglot-invert">
+          <label for="weglot_choice" class="wgcurrent wg-li weglot-flags flag-0 en" data-code-language="en">
+            <span>English</span>
+          </label>
+          <ul>
+            <li class="wg-li weglot-flags flag-0 jp" data-code-language="fr">
+              <a data-wg-notranslate href="http://example.com/">日本語</a>
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </nav>
+  </header>
+  <!-- End of header -->
+  <!-- Start of contact us -->
+  <div class="contact-us">
+    <div class="section-header">
+      <h2>Contact Us</h2>
+      <hr>
+    </div>
+    <form>
+      <div class="form form-left">
+        <div class="form-group">
+          <input type="text" class="form-control" name="name" id="name" placeholder="Your Name *" required="">
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" name="email" id="email" placeholder="Your Email *" required="">
+        </div>
+        <div class="form-group">
+          <fieldset class="courses">
+            <legend>  I want to rent (a)  </legend>
+            <input type="checkbox" name="rental-plan" value="city-bike"> City Bike<br>
+            <input type="checkbox" name="rental-plan" value="road-bike"> Road Bike<br>
+            <input type="checkbox" name="rental-plan" value="cross-bike"> Cross Bike<br>
+            <input type="checkbox" name="rental-plan" value="other"> Others
+        </fieldset>
+        </div>
+      </div>
+      <div class="form form-right">
+        <div class="form-group">
+          <fieldset class="rental-span">
+            <legend>I want to rent a bike/bikes for</legend>
+            <select name="rental-span">
+              <option value="12hours">12 Hours</option>
+              <option value="1day">1 Day</option>
+              <option value="2day">2 Days</option>
+              <option value="3day">3 Days</option>
+              <option value="1week">1 Week</option>
+          </select>
+          </fieldset>
+        </div>
+        <div class="form-group">
+          <input type="tel" class="form-control" name="phone" id="tel" placeholder="Your Phone *" required="">
+        </div>
+        <div class="form-group">
+          <textarea name="message" id="message" class="form-control" placeholder="Your message *" required=""></textarea>
+        </div>
+      </div>
+    </form>
+    <button id="send_message_button" class="btn" type="submit">Send Message</button>
+  </div>
+</body>
+</html>

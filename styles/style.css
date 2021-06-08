@@ -1,0 +1,309 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+header {
+  background-color: #ed6921;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header a img {
+  height: 75px;
+  width: 225px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  padding: 13px;
+  text-decoration: none;
+  color: white;
+}
+
+.menu-language aside ul {
+  list-style: none;
+}
+
+.menu-language {
+  padding: 5px;
+}
+
+.campaign {
+  background-image: url(https://images.unsplash.com/photo-1534787238916-9ba6764efd4f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2089&q=80);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  color: white;
+}
+
+.campaign h2,
+.campaign p,
+.book-now a {
+  text-shadow: 2px 2px 3px #2e3136;
+}
+
+.campaign h2 {
+  font-size: 4em;
+  padding: 70px;
+}
+
+.campaign p {
+  font-size: 2em;
+  padding: 20px 70px 20px;
+}
+
+.book-now a {
+  border: 2px solid white;
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+
+.book-now a:hover {
+  background-color: #61615b;
+}
+
+.wrapper {
+  color: #14124a;
+}
+
+.section-header {
+  text-align: center;
+  padding: 30px;
+  font-size: 1.5em;
+}
+
+i {
+  font-size: 40px;
+}
+
+.merch {
+  margin: 10px 50px 10px;
+}
+
+.merch-items img {
+  width: 100%;
+}
+
+.merch-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 300px;
+  align-content: space-between;
+}
+
+.see-more {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 0;
+}
+
+.see-more a {
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 2px 10px;
+  background-color: #373737;
+  color: white;
+  text-decoration: none;
+}
+
+.rentals {
+  margin: 10px 50px 10px;
+  background-color: #f2ebda;
+}
+
+.merch-items {
+  width: 30%;
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  width: auto;
+}
+
+.column {
+  width: 30%;
+  text-align: center;
+}
+
+.column img {
+  width: 80%;
+  border-radius: 60%;
+}
+
+.column p {
+  font-size: 20px;
+  padding: 15px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #ed6921;
+}
+
+  /* Explore Osaka */
+.cycling {
+  margin: 10px 50px 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+.text-column p {
+  padding: 100px 20px;
+  font-size: 25px;
+}
+
+.image-column img {
+  height: 400px;
+}
+
+/* Css for Home Ends */
+
+/* Start of Css for About Us */
+.introduction {
+  background-color: #0869a1;
+}
+
+.about-us,
+.our-story {
+  text-align: center;
+  padding: 50px;
+  margin: 0;
+  color: white;
+}
+
+.about-us p,
+.our-story p {
+  padding: 20px;
+}
+/* Css for ABout Us Ends */
+
+/* Start of Css for Bike Rentals */
+.bike-rentals {
+  font-size: 1.5em;
+  color: #14124a;
+}
+
+.bike-gallery img {
+  width: 70%;
+}
+
+.bike-items {
+  margin: 50px;
+}
+
+.bike-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bike-item a {
+  width: 70%;
+}
+
+.option-gallery {
+  display: flex;
+  justify-content: space-around;
+}
+
+.rental-span-option,
+.rental-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-table {
+  background-color: #f2ebda;
+}
+
+.price-table hr {
+  color: #373737;
+  border-style: solid;
+  border-width: 1.5px;
+}
+
+.one-item {
+  margin-right: 30px;
+  width: 90px;
+}
+
+.option-items {
+  width: 20%;
+  padding: 30px 10px;
+}
+
+.option-items img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 60%;
+}
+
+.bike-title {
+  padding: 20px;
+}
+
+/* End of Css for Bike Rentals */
+
+/* Start of Css for contact us */
+.contact-us {
+  background-color: #0869a1;
+  color: white;
+}
+
+.form-group {
+  margin: 20px;
+  font-size: 20px;
+}
+
+.form {
+  float: left;
+  width: 50%;
+  padding: 30px;
+}
+
+.form-control {
+  width: 100%;
+  display: inline-block;
+  padding: 20px;
+  line-height: 1.5;
+}
+
+fieldset {
+  border-color: white;
+  padding: 10px;
+}
+
+.rental-span {
+  padding: 12px;
+}
+
+button {
+  margin: 30px 56% 80px 44%;
+  padding: 10px 70px;
+  background-color: #ff831e;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+button:hover {
+  background-color: #ce5d00;
+}
