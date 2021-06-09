@@ -262,6 +262,34 @@ footer {
   padding: 20px;
 }
 
+.rental-book-button {
+  display: flex;
+  margin: 20px 0;
+  height: 50px;
+}
+
+.rental-book-button p {
+  font-size: 15px;
+}
+
+.rental-book-button button {
+  margin: 0;
+  padding: 15px 50px;
+}
+
+.rental-book-button select {
+  padding: 5px 20px;
+}
+
+.rental-book-span {
+  margin: 0 20px;
+}
+
+.rental-book {
+  display: flex;
+  align-items: center;
+}
+
 /* End of Css for Bike Rentals */
 
 /* Start of Css for contact us */
