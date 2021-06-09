@@ -182,7 +182,8 @@ footer {
 }
 
 .about-us,
-.our-story {
+.our-story,
+.address {
   text-align: center;
   padding: 50px;
   margin: 0;
@@ -190,7 +191,8 @@ footer {
 }
 
 .about-us p,
-.our-story p {
+.our-story p,
+.address p {
   padding: 20px;
 }
 /* Css for ABout Us Ends */
